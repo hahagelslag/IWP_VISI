@@ -234,7 +234,7 @@ function generateResponse(vraag) {
         (vraagLower.includes('onprettig') || vraagLower.includes('reden'))) {
         return {
             text: 'Hier is een visualisatie van de onprettige redenen van alle deelnemers:',
-            image: '/images/Onprettige%20redenen%20cirkeldiagram.png'
+            image: '/images/Onprettige redenen cirkeldiagram.png'
         };
     }
     
@@ -243,7 +243,7 @@ function generateResponse(vraag) {
         (vraagLower.includes('verbetering') || vraagLower.includes('verbeter'))) {
         return {
             text: 'Hier is een visualisatie van de verbetercategorieën van alle deelnemers:',
-            image: '/images/Verbetercategorieen%20cirkeldiagram.png'
+            image: '/images/Verbetercategorieen cirkeldiagram.png'
         };
     }
     
@@ -684,4 +684,5 @@ function closeLightbox() {
     // Herstel scrollen
     document.body.style.overflow = '';
 }
+
 
