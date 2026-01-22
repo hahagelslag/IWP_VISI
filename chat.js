@@ -225,7 +225,7 @@ function generateResponse(vraag) {
         (vraagLower.includes('rustig') || vraagLower.includes('rust'))) {
         return {
             text: 'Hier is een visualisatie van de rustigheidsscore voor alle deelnemers:',
-            image: '/images/Rustigheidsscore%20staafdiagram.png'
+            image: './images/Rustigheidsscore staafdiagram.png'
         };
     }
     
@@ -234,7 +234,7 @@ function generateResponse(vraag) {
         (vraagLower.includes('onprettig') || vraagLower.includes('reden'))) {
         return {
             text: 'Hier is een visualisatie van de onprettige redenen van alle deelnemers:',
-            image: '/images/Onprettige redenen cirkeldiagram.png'
+            image: './images/Onprettige redenen cirkeldiagram.png'
         };
     }
     
@@ -243,7 +243,7 @@ function generateResponse(vraag) {
         (vraagLower.includes('verbetering') || vraagLower.includes('verbeter'))) {
         return {
             text: 'Hier is een visualisatie van de verbetercategorieën van alle deelnemers:',
-            image: '/images/Verbetercategorieen cirkeldiagram.png'
+            image: './images/Verbetercategorieen cirkeldiagram.png'
         };
     }
     
