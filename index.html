@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistolabs Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jouw <span class="highlight">buurt</span> in beeld</h1>
+        <p>Onderzoeksresultaten: Hoe ervaren bewoners hun buurt?</p>
+        
+        <!-- Navigatie tabs -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="individual">Individuele deelnemer</button>
+            <button class="tab-button" data-tab="overview">Alle deelnemers overzicht</button>
+        </div>
+        
+        <!-- Tab 1: Individuele deelnemer -->
+        <div class="tab-content active" id="tab-individual">
+            <div class="data-preview">
+                <h2>Kies een deelnemer:</h2>
+                <select id="datasetSelector" class="dataset-selector">
+                    <option value="">Laden...</option>
+                </select>
+                
+                <h2>Antwoorden:</h2>
+                <div id="dataDisplay">Data wordt geladen...</div>
+            </div>
+        </div>
+        
+        <!-- Tab 2: Alle deelnemers overzicht -->
+        <div class="tab-content" id="tab-overview">
+            <h2>Alle deelnemers</h2>
+            <div id="overviewDisplay">Laden...</div>
+        </div>
+    </div>
+
+    <!-- Chat Widget (klein icoontje rechtsonder) -->
+    <div class="chat-button" id="chatButton">
+        <span class="chat-icon">💬</span>
+    </div>
+
+    <!-- Chat Venster (verborgen totdat je klikt) -->
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <div class="chat-title">
+                <img src="images/front.png" alt="Visi" class="bot-icon">
+                <span>Visi</span>
+            </div>
+            <button class="close-button" id="closeButton">✕</button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="bot-message">
+                Waar kan ik je vandaag mee helpen?
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                id="chatInput" 
+                placeholder="Stel je vraag..."
+                autocomplete="off"
+            >
+            <button id="sendButton">➤</button>
+        </div>
+    </div>
+
+    <!-- Image Lightbox Modal -->
+    <div class="image-lightbox" id="imageLightbox">
+        <button class="lightbox-close" id="lightboxClose">✕</button>
+        <img src="" alt="Vergrote weergave" id="lightboxImage">
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "p01",
+    "deelnemer": "Deelnemer 1",
+    "opdracht1": {
+      "image": "foto_park.jpg",
+      "waarom_prettig": "Er zijn veel bomen en het is rustig, ik kan hier goed ontspannen",
+      "rustigheidScore": 8
+    },
+    "opdracht2": {
+      "image": "foto_steeg.jpg",
+      "reden": "Onveilig gevoel"
+    },
+    "opdracht3": {
+      "verbetering": "Meer groen aanplanten en bomen voor schaduw",
+      "belangrijkheidScore": 5
+    },
+    "labels_handmatig": ["park", "prettig", "rustig", "onveilig", "groen"]
+  },
+  {
+    "id": "p02",
+    "deelnemer": "Deelnemer 2",
+    "opdracht1": {
+      "image": "foto_speeltuin.jpg",
+      "waarom_prettig": "Mijn kinderen spelen hier graag en er is veel ruimte",
+      "rustigheidScore": 6
+    },
+    "opdracht2": {
+      "image": "foto_kruispunt.jpg",
+      "reden": "Te druk"
+    },
+    "opdracht3": {
+      "verbetering": "Betere straatverlichting, vooral in de winter",
+      "belangrijkheidScore": 4
+    },
+    "labels_handmatig": ["speeltuin", "gezinsvriendelijk", "druk", "verlichting", "veiligheid"]
+  },
+  {
+    "id": "p03",
+    "deelnemer": "Deelnemer 3",
+    "opdracht1": {
+      "image": "foto_bankje.jpg",
+      "waarom_prettig": "Mooi uitzicht op het water, een fijne plek om even te zitten",
+      "rustigheidScore": 9
+    },
+    "opdracht2": {
+      "image": "foto_vervuiling.jpg",
+      "reden": "Zwerfafval"
+    },
+    "opdracht3": {
+      "verbetering": "Meer bankjes en zitplekken voor ouderen",
+      "belangrijkheidScore": 3
+    },
+    "labels_handmatig": ["bankje", "water", "rustig", "zwerfafval", "voorzieningen"]
+  },
+  {
+    "id": "p04",
+    "deelnemer": "Deelnemer 4",
+    "opdracht1": {
+      "image": "foto_sportveldje.jpg",
+      "waarom_prettig": "Leuke plek om te sporten en mensen te ontmoeten",
+      "rustigheidScore": 5
+    },
+    "opdracht2": {
+      "image": "foto_tunnel.jpg",
+      "reden": "Slechte verlichting"
+    },
+    "opdracht3": {
+      "verbetering": "Meer activiteiten voor jongeren organiseren",
+      "belangrijkheidScore": 4
+    },
+    "labels_handmatig": ["sport", "sociaal", "donker", "verlichting", "jongeren"]
+  },
+  {
+    "id": "p05",
+    "deelnemer": "Deelnemer 5",
+    "opdracht1": {
+      "image": "foto_bibliotheek.jpg",
+      "waarom_prettig": "Rustige omgeving, ideaal om te lezen of te werken",
+      "rustigheidScore": 10
+    },
+    "opdracht2": {
+      "image": "foto_station.jpg",
+      "reden": "Te druk"
+    },
+    "opdracht3": {
+      "verbetering": "Langzaamverkeerzone voor fietsers en voetgangers",
+      "belangrijkheidScore": 5
+    },
+    "labels_handmatig": ["bibliotheek", "rustig", "station", "druk", "verkeer"]
+  },
+  {
+    "id": "p06",
+    "deelnemer": "Deelnemer 6",
+    "opdracht1": {
+      "image": "foto_markt.jpg",
+      "waarom_prettig": "Gezellige sfeer en leuk om lokale producten te kopen",
+      "rustigheidScore": 4
+    },
+    "opdracht2": {
+      "image": "foto_parkeerplaats.jpg",
+      "reden": "Zwerfafval"
+    },
+    "opdracht3": {
+      "verbetering": "Meer prullenbakken plaatsen en vaker legen",
+      "belangrijkheidScore": 5
+    },
+    "labels_handmatig": ["markt", "gezellig", "parkeren", "zwerfafval", "afval"]
+  },
+  {
+    "id": "p07",
+    "deelnemer": "Deelnemer 7",
+    "opdracht1": {
+      "image": "foto_bos.jpg",
+      "waarom_prettig": "Natuur dichtbij, perfect voor een wandeling",
+      "rustigheidScore": 9
+    },
+    "opdracht2": {
+      "image": "foto_bushokje.jpg",
+      "reden": "Slecht onderhouden"
+    },
+    "opdracht3": {
+      "verbetering": "Beter onderhoud van openbare ruimtes en faciliteiten",
+      "belangrijkheidScore": 4
+    },
+    "labels_handmatig": ["bos", "natuur", "wandelen", "onderhoud", "faciliteiten"]
+  },
+  {
+    "id": "p08",
+    "deelnemer": "Deelnemer 8",
+    "opdracht1": {
+      "image": "foto_terras.jpg",
+      "waarom_prettig": "Fijne plek om mensen te ontmoeten en een drankje te doen",
+      "rustigheidScore": 7
+    },
+    "opdracht2": {
+      "image": "foto_winkelstraat.jpg",
+      "reden": "Te druk"
+    },
+    "opdracht3": {
+      "verbetering": "Meer parkeerplekken voor bewoners",
+      "belangrijkheidScore": 3
+    },
+    "labels_handmatig": ["terras", "sociaal", "winkelstraat", "druk", "parkeren"]
+  },
+  {
+    "id": "p09",
+    "deelnemer": "Deelnemer 9",
+    "opdracht1": {
+      "image": "foto_tuin.jpg",
+      "waarom_prettig": "Groene oase in de stad, veel bloemen en vogels",
+      "rustigheidScore": 8
+    },
+    "opdracht2": {
+      "image": "foto_hoek.jpg",
+      "reden": "Onveilig gevoel"
+    },
+    "opdracht3": {
+      "verbetering": "Camera's plaatsen bij plekken die onveilig aanvoelen",
+      "belangrijkheidScore": 5
+    },
+    "labels_handmatig": ["tuin", "groen", "bloemen", "onveilig", "camera"]
+  },
+  {
+    "id": "p10",
+    "deelnemer": "Deelnemer 10",
+    "opdracht1": {
+      "image": "foto_plein.jpg",
+      "waarom_prettig": "Veel ruimte, leuk voor evenementen en markten",
+      "rustigheidScore": 6
+    },
+    "opdracht2": {
+      "image": "foto_alley.jpg",
+      "reden": "Slechte verlichting"
+    },
+    "opdracht3": {
+      "verbetering": "Meer culturele activiteiten en evenementen organiseren",
+      "belangrijkheidScore": 4
+    },
+    "labels_handmatig": ["plein", "evenementen", "cultuur", "verlichting", "activiteiten"]
+  }
+]
+
